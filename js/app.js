@@ -10,7 +10,10 @@ let winner
 
 
 /*------------------------ Cached Element References ------------------------*/
-
+const messageElement = document.getElementById('message')
+//console.log(messageElement)
+const squaresElement = document.querySelectorAll('.squares')
+//console.log(squaresElement)
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -18,15 +21,6 @@ let winner
 
 
 /*-------------------------------- Functions --------------------------------*/
-
-
-
-// 2) Store cached element references on the page that will be accessed in code more than once in variables to make code more concise, readable, and performant:
-	
-	// 2.1) Store the 9 elements that represent the squares on the page.
-	  // You may want to give each square a class name in your HTML to make this easier!
-
-	// 2.2) Store the element that displays the game status on the page.
 
 
 // 3) Upon loading, the app should:
